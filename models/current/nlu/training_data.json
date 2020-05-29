@@ -1,0 +1,1841 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [],
+    "lookup_tables": [],
+    "common_examples": [
+      {
+        "text": "Bye",
+        "intent": "bye"
+      },
+      {
+        "text": "Goodbye",
+        "intent": "bye"
+      },
+      {
+        "text": "See you later",
+        "intent": "bye"
+      },
+      {
+        "text": "Bye bot",
+        "intent": "bye"
+      },
+      {
+        "text": "Goodbye friend",
+        "intent": "bye"
+      },
+      {
+        "text": "bye",
+        "intent": "bye"
+      },
+      {
+        "text": "bye",
+        "intent": "bye"
+      },
+      {
+        "text": "bye",
+        "intent": "bye"
+      },
+      {
+        "text": "bye",
+        "intent": "bye"
+      },
+      {
+        "text": "bye",
+        "intent": "bye"
+      },
+      {
+        "text": "bye for now",
+        "intent": "bye"
+      },
+      {
+        "text": "catch you later",
+        "intent": "bye"
+      },
+      {
+        "text": "gotta go",
+        "intent": "bye"
+      },
+      {
+        "text": "See you",
+        "intent": "bye"
+      },
+      {
+        "text": "goodnight",
+        "intent": "bye"
+      },
+      {
+        "text": "have a nice day",
+        "intent": "bye"
+      },
+      {
+        "text": "i'm off",
+        "intent": "bye"
+      },
+      {
+        "text": "see you later alligator",
+        "intent": "bye"
+      },
+      {
+        "text": "we'll speak soon",
+        "intent": "bye"
+      },
+      {
+        "text": "Hi",
+        "intent": "greet"
+      },
+      {
+        "text": "Hey",
+        "intent": "greet"
+      },
+      {
+        "text": "Hi bot",
+        "intent": "greet"
+      },
+      {
+        "text": "Hey bot",
+        "intent": "greet"
+      },
+      {
+        "text": "Hello",
+        "intent": "greet"
+      },
+      {
+        "text": "Good morning",
+        "intent": "greet"
+      },
+      {
+        "text": "hi again",
+        "intent": "greet"
+      },
+      {
+        "text": "hi folks",
+        "intent": "greet"
+      },
+      {
+        "text": "hi Mister",
+        "intent": "greet"
+      },
+      {
+        "text": "hi pal!",
+        "intent": "greet"
+      },
+      {
+        "text": "hi there",
+        "intent": "greet"
+      },
+      {
+        "text": "greetings",
+        "intent": "greet"
+      },
+      {
+        "text": "hello everybody",
+        "intent": "greet"
+      },
+      {
+        "text": "hello is anybody there",
+        "intent": "greet"
+      },
+      {
+        "text": "hello robot",
+        "intent": "greet"
+      },
+      {
+        "text": "Thanks",
+        "intent": "thank"
+      },
+      {
+        "text": "Thanks",
+        "intent": "thank"
+      },
+      {
+        "text": "Thanks",
+        "intent": "thank"
+      },
+      {
+        "text": "Thanks",
+        "intent": "thank"
+      },
+      {
+        "text": "Thanks",
+        "intent": "thank"
+      },
+      {
+        "text": "Thank you",
+        "intent": "thank"
+      },
+      {
+        "text": "Thank you",
+        "intent": "thank"
+      },
+      {
+        "text": "Thank you",
+        "intent": "thank"
+      },
+      {
+        "text": "Thank you",
+        "intent": "thank"
+      },
+      {
+        "text": "Thank you",
+        "intent": "thank"
+      },
+      {
+        "text": "Thank you",
+        "intent": "thank"
+      },
+      {
+        "text": "Thank you so much",
+        "intent": "thank"
+      },
+      {
+        "text": "Thanks bot",
+        "intent": "thank"
+      },
+      {
+        "text": "Thanks for that",
+        "intent": "thank"
+      },
+      {
+        "text": "cheers",
+        "intent": "thank"
+      },
+      {
+        "text": "cheers bro",
+        "intent": "thank"
+      },
+      {
+        "text": "ok thanks!",
+        "intent": "thank"
+      },
+      {
+        "text": "perfect thank you",
+        "intent": "thank"
+      },
+      {
+        "text": "thanks a bunch for everything",
+        "intent": "thank"
+      },
+      {
+        "text": "thanks for the help",
+        "intent": "thank"
+      },
+      {
+        "text": "thanks a lot",
+        "intent": "thank"
+      },
+      {
+        "text": "amazing, thanks",
+        "intent": "thank"
+      },
+      {
+        "text": "cool, thanks",
+        "intent": "thank"
+      },
+      {
+        "text": "cool thank you",
+        "intent": "thank"
+      },
+      {
+        "text": "yes",
+        "intent": "affirm"
+      },
+      {
+        "text": "yes",
+        "intent": "affirm"
+      },
+      {
+        "text": "yes",
+        "intent": "affirm"
+      },
+      {
+        "text": "yes",
+        "intent": "affirm"
+      },
+      {
+        "text": "yes",
+        "intent": "affirm"
+      },
+      {
+        "text": "yes sure",
+        "intent": "affirm"
+      },
+      {
+        "text": "absolutely",
+        "intent": "affirm"
+      },
+      {
+        "text": "for sure",
+        "intent": "affirm"
+      },
+      {
+        "text": "yes yes yes",
+        "intent": "affirm"
+      },
+      {
+        "text": "definitely",
+        "intent": "affirm"
+      },
+      {
+        "text": "My name is Atul",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Atul",
+            "entity": "person_name",
+            "end": 15,
+            "start": 11
+          }
+        ]
+      },
+      {
+        "text": "My name is John",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "John",
+            "entity": "person_name",
+            "end": 15,
+            "start": 11
+          }
+        ]
+      },
+      {
+        "text": "My name is Frank",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Frank",
+            "entity": "person_name",
+            "end": 16,
+            "start": 11
+          }
+        ]
+      },
+      {
+        "text": "My name is Vignesh",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Vignesh",
+            "entity": "person_name",
+            "end": 18,
+            "start": 11
+          }
+        ]
+      },
+      {
+        "text": "My name is Dinesh",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Dinesh",
+            "entity": "person_name",
+            "end": 17,
+            "start": 11
+          }
+        ]
+      },
+      {
+        "text": "My name is Veera",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Veera",
+            "entity": "person_name",
+            "end": 16,
+            "start": 11
+          }
+        ]
+      },
+      {
+        "text": "My name is Srini",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Srini",
+            "entity": "person_name",
+            "end": 16,
+            "start": 11
+          }
+        ]
+      },
+      {
+        "text": "My name is Renju",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Renju",
+            "entity": "person_name",
+            "end": 16,
+            "start": 11
+          }
+        ]
+      },
+      {
+        "text": "My name is Karthik",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Karthik",
+            "entity": "person_name",
+            "end": 18,
+            "start": 11
+          }
+        ]
+      },
+      {
+        "text": "My name is Arun",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Arun",
+            "entity": "person_name",
+            "end": 15,
+            "start": 11
+          }
+        ]
+      },
+      {
+        "text": "My name is Jegan",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Jegan",
+            "entity": "person_name",
+            "end": 16,
+            "start": 11
+          }
+        ]
+      },
+      {
+        "text": "My name is Jagan",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Jagan",
+            "entity": "person_name",
+            "end": 16,
+            "start": 11
+          }
+        ]
+      },
+      {
+        "text": "My name is Siva",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Siva",
+            "entity": "person_name",
+            "end": 15,
+            "start": 11
+          }
+        ]
+      },
+      {
+        "text": "My name is Gary",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Gary",
+            "entity": "person_name",
+            "end": 15,
+            "start": 11
+          }
+        ]
+      },
+      {
+        "text": "I am Atul",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Atul",
+            "entity": "person_name",
+            "end": 9,
+            "start": 5
+          }
+        ]
+      },
+      {
+        "text": "I'm Atul",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Atul",
+            "entity": "person_name",
+            "end": 8,
+            "start": 4
+          }
+        ]
+      },
+      {
+        "text": "People call me Atul",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Atul",
+            "entity": "person_name",
+            "end": 19,
+            "start": 15
+          }
+        ]
+      },
+      {
+        "text": "It's Atul",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Atul",
+            "entity": "person_name",
+            "end": 9,
+            "start": 5
+          }
+        ]
+      },
+      {
+        "text": "Usually people call me Atul",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Atul",
+            "entity": "person_name",
+            "end": 27,
+            "start": 23
+          }
+        ]
+      },
+      {
+        "text": "My name is Atul",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Atul",
+            "entity": "person_name",
+            "end": 15,
+            "start": 11
+          }
+        ]
+      },
+      {
+        "text": "You can call me Atul",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Atul",
+            "entity": "person_name",
+            "end": 20,
+            "start": 16
+          }
+        ]
+      },
+      {
+        "text": "Please call me harish",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "harish",
+            "entity": "person_name",
+            "end": 21,
+            "start": 15
+          }
+        ]
+      },
+      {
+        "text": "Please call me Srini",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Srini",
+            "entity": "person_name",
+            "end": 20,
+            "start": 15
+          }
+        ]
+      },
+      {
+        "text": "Please call me nathan",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "nathan",
+            "entity": "person_name",
+            "end": 21,
+            "start": 15
+          }
+        ]
+      },
+      {
+        "text": "Please call me jake",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "jake",
+            "entity": "person_name",
+            "end": 19,
+            "start": 15
+          }
+        ]
+      },
+      {
+        "text": "Please call me ganesh",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "ganesh",
+            "entity": "person_name",
+            "end": 21,
+            "start": 15
+          }
+        ]
+      },
+      {
+        "text": "Please call me siva",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "siva",
+            "entity": "person_name",
+            "end": 19,
+            "start": 15
+          }
+        ]
+      },
+      {
+        "text": "Name name is Atul",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Atul",
+            "entity": "person_name",
+            "end": 17,
+            "start": 13
+          }
+        ]
+      },
+      {
+        "text": "I am Atul",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Atul",
+            "entity": "person_name",
+            "end": 9,
+            "start": 5
+          }
+        ]
+      },
+      {
+        "text": "I'm Atul",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Atul",
+            "entity": "person_name",
+            "end": 8,
+            "start": 4
+          }
+        ]
+      },
+      {
+        "text": "Call me Renju",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Renju",
+            "entity": "person_name",
+            "end": 13,
+            "start": 8
+          }
+        ]
+      },
+      {
+        "text": "Call me Jegan",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Jegan",
+            "entity": "person_name",
+            "end": 13,
+            "start": 8
+          }
+        ]
+      },
+      {
+        "text": "Call me Srini",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Srini",
+            "entity": "person_name",
+            "end": 13,
+            "start": 8
+          }
+        ]
+      },
+      {
+        "text": "Call me Dinesh",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Dinesh",
+            "entity": "person_name",
+            "end": 14,
+            "start": 8
+          }
+        ]
+      },
+      {
+        "text": "Call me Vignesh",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Vignesh",
+            "entity": "person_name",
+            "end": 15,
+            "start": 8
+          }
+        ]
+      },
+      {
+        "text": "Call me Arun",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Arun",
+            "entity": "person_name",
+            "end": 12,
+            "start": 8
+          }
+        ]
+      },
+      {
+        "text": "Call me Atul",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Atul",
+            "entity": "person_name",
+            "end": 12,
+            "start": 8
+          }
+        ]
+      },
+      {
+        "text": "Call me Karthik",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Karthik",
+            "entity": "person_name",
+            "end": 15,
+            "start": 8
+          }
+        ]
+      },
+      {
+        "text": "Call me Arun",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Arun",
+            "entity": "person_name",
+            "end": 12,
+            "start": 8
+          }
+        ]
+      },
+      {
+        "text": "I am Atul",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Atul",
+            "entity": "person_name",
+            "end": 9,
+            "start": 5
+          }
+        ]
+      },
+      {
+        "text": "I am Atul",
+        "intent": "name",
+        "entities": [
+          {
+            "value": "Atul",
+            "entity": "person_name",
+            "end": 9,
+            "start": 5
+          }
+        ]
+      },
+      {
+        "text": "I want to book",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to book",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Book appt",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Schedule appt",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Schedule appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Need to book appt",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Need to book",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Need to schedule an appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to book at 4 pm friday",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Can I schedule an appointment for 3 pm on wednesday?",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Can I come in wednesday at 4 pm for adjustment?",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to come in tuesday at 2 pm for adjustment?",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Is 4 pm friday available?",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Can I come in wednesday at 2 pm?",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Schedule an appointment for 2 pm on monday",
+        "intent": "book_appt"
+      },
+      {
+        "text": "book appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "book appt",
+        "intent": "book_appt"
+      },
+      {
+        "text": "book",
+        "intent": "book_appt"
+      },
+      {
+        "text": "book",
+        "intent": "book_appt"
+      },
+      {
+        "text": "book",
+        "intent": "book_appt"
+      },
+      {
+        "text": "book",
+        "intent": "book_appt"
+      },
+      {
+        "text": "schedule appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "schedule appt",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to book",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to book an appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to book appt",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to book appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to book",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Can I come in wednesday at 2 pm?",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to book appt on monday at 1 pm",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to book appointment on monday at 2 pm",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I would like to book appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I would like to book appt",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Need to schedule an appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "schedule appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to buy an Insurance",
+        "intent": "show_lob"
+      },
+      {
+        "text": "I want to buy an Insurance",
+        "intent": "show_lob"
+      },
+      {
+        "text": "I want to buy an Insurance",
+        "intent": "show_lob"
+      },
+      {
+        "text": "I want to buy an Insurance",
+        "intent": "show_lob"
+      },
+      {
+        "text": "I want to buy an Insurance",
+        "intent": "show_lob"
+      },
+      {
+        "text": "I need an insurance",
+        "intent": "show_lob"
+      },
+      {
+        "text": "I need an insurance",
+        "intent": "show_lob"
+      },
+      {
+        "text": "I need an insurance",
+        "intent": "show_lob"
+      },
+      {
+        "text": "I need an insurance",
+        "intent": "show_lob"
+      },
+      {
+        "text": "I need an insurance",
+        "intent": "show_lob"
+      },
+      {
+        "text": "I need an insurance",
+        "intent": "show_lob"
+      },
+      {
+        "text": "I am looking for an insurance",
+        "intent": "show_lob"
+      },
+      {
+        "text": "I am looking for an insurance",
+        "intent": "show_lob"
+      },
+      {
+        "text": "I am looking for an insurance",
+        "intent": "show_lob"
+      },
+      {
+        "text": "I am looking for an insurance",
+        "intent": "show_lob"
+      },
+      {
+        "text": "I am looking for an insurance",
+        "intent": "show_lob"
+      },
+      {
+        "text": "I want buy a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "I want buy a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "I want buy a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "I want buy a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "I want buy a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "I want buy a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "I want buy a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "I want buy a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "buy a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "buy a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "buy a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "buy a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "buy a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "buy a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "buy a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "look for a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "look for a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "look for a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "look for a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "look for a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "look for a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "show me a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "show me a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "show me a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "show me a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "show me a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "show me a policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "show me a some Insurance policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "show me a some Insurance policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "show me a some Insurance policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "show me a some Insurance policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "show me a some Insurance policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "show me a some Insurance policy",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "[life] Insurance",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "[life] Insurance",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "[life] Insurance",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "[vehicle] Insurance",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "[vehicle] Insurance",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "[vehicle] Insurance",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "[motor] Insurance",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "[motor] Insurance",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "[motor] Insurance",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "[house] Insurance",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "[life] Insurance",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "[vehicle] Insurance",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "[motor] Insurance",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "[house] Insurance",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "[life] Insurance",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "[vehicle] Insurance",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "[motor] Insurance",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "[house] Insurance",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "[house] Insurance",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "[house] Insurance",
+        "intent": "buy_policy"
+      },
+      {
+        "text": "go ahead with [exclusive]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "go ahead with [exclusive]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "go ahead with [exclusive]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "go ahead with [exclusive]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "i'll go with [exclusive]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "i'll go with [exclusive]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "i'll go with [exclusive]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "i'll go with [exclusive]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "i'll go with [exclusive]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "go with [exclusive]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "go with [exclusive]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "go with [exclusive]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "go with [exclusive]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "go with [exclusive]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "i will go with [exclusive]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "go ahead with [CLASSIC]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "i'll go with [CLASSIC]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "go with [CLASSIC]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "i will go with [CLASSIC]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "go ahead with [CLASSIC]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "i'll go with [CLASSIC]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "go with [CLASSIC]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "i will go with [CLASSIC]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "go ahead with [CLASSIC]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "i'll go with [CLASSIC]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "go with [CLASSIC]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "i will go with [CLASSIC]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "go ahead with [PREMIUM]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "i'll go with [PREMIUM]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "go with [PREMIUM]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "i will go with [PREMIUM]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "go ahead with [EXCLUSIVE]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "i'll go with [EXCLUSIVE]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "go with [EXCLUSIVE]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "i will go with [EXCLUSIVE]",
+        "intent": "confirm_policy"
+      },
+      {
+        "text": "Change appointment",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "Change appt",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "Need to reschedule",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "Need to change appt",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "I want to reschedule appointment",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "Need to reschedule appt",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "I want to reschedule appt",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "Can I reschedule",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "Can I change my appointment?",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "Can I change my appt",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "Can I reschedule my appointment to 3 pm on wednesday instead?",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "Reschedule",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "I want to reschedule my appointment for friday at 4 pm",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "I want to change my appointment to wednesday at 2 pm",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "I need to reschedule my upcoming appt",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "I want to reschedule my upcoming appointment",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "reschedule",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "reschedule appointment",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "Cancel",
+        "intent": "cancel_appt"
+      },
+      {
+        "text": "Cancel appointment",
+        "intent": "cancel_appt"
+      },
+      {
+        "text": "Cancel my appointment",
+        "intent": "cancel_appt"
+      },
+      {
+        "text": "Cancel appt",
+        "intent": "cancel_appt"
+      },
+      {
+        "text": "Cancel my appt",
+        "intent": "cancel_appt"
+      },
+      {
+        "text": "Cancel the appointment",
+        "intent": "cancel_appt"
+      },
+      {
+        "text": "I want to cancel my appt",
+        "intent": "cancel_appt"
+      },
+      {
+        "text": "on Monday",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "Monday",
+            "entity": "time",
+            "end": 9,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "on Tuesday",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "Tuesday",
+            "entity": "time",
+            "end": 10,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "on Wednesday",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "Wednesday",
+            "entity": "time",
+            "end": 12,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "on Thrusday",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "Thrusday",
+            "entity": "time",
+            "end": 11,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "on Friday",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "Friday",
+            "entity": "time",
+            "end": 9,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "on 5th",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "5th",
+            "entity": "time",
+            "end": 6,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "on 6th",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "6th",
+            "entity": "time",
+            "end": 6,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "on 7th",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "7th",
+            "entity": "time",
+            "end": 6,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "on 8th",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "8th",
+            "entity": "time",
+            "end": 6,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "on 4th",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "4th",
+            "entity": "time",
+            "end": 6,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "on 1st",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "1st",
+            "entity": "time",
+            "end": 6,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "on 21st",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "21st",
+            "entity": "time",
+            "end": 7,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "on 11th",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "11th",
+            "entity": "time",
+            "end": 7,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "on 2nd",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "2nd",
+            "entity": "time",
+            "end": 6,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "on 3rd",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "3rd",
+            "entity": "time",
+            "end": 6,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "on 22nd",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "22nd",
+            "entity": "time",
+            "end": 7,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "on 23rd",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "23rd",
+            "entity": "time",
+            "end": 7,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "on tuesday at 2 pm",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "tuesday at 2 pm",
+            "entity": "time",
+            "end": 18,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "at 3am",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "3am",
+            "entity": "time",
+            "end": 6,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "at 4PM",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "4PM",
+            "entity": "time",
+            "end": 6,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "at March 21",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "March 21",
+            "entity": "time",
+            "end": 11,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "on januray 20",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "januray 20",
+            "entity": "time",
+            "end": 13,
+            "start": 3
+          }
+        ]
+      },
+      {
+        "text": "Today",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "Today",
+            "entity": "time",
+            "end": 5,
+            "start": 0
+          }
+        ]
+      },
+      {
+        "text": "Today",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "Today",
+            "entity": "time",
+            "end": 5,
+            "start": 0
+          }
+        ]
+      },
+      {
+        "text": "Today",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "Today",
+            "entity": "time",
+            "end": 5,
+            "start": 0
+          }
+        ]
+      },
+      {
+        "text": "Today",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "Today",
+            "entity": "time",
+            "end": 5,
+            "start": 0
+          }
+        ]
+      },
+      {
+        "text": "[Tomorrow] (time)",
+        "intent": "enter_data"
+      },
+      {
+        "text": "[Tomorrow] (time)",
+        "intent": "enter_data"
+      },
+      {
+        "text": "[Tomorrow] (time)",
+        "intent": "enter_data"
+      },
+      {
+        "text": "[Tomorrow] (time)",
+        "intent": "enter_data"
+      },
+      {
+        "text": "[Tomorrow] 9am(time)",
+        "intent": "enter_data"
+      },
+      {
+        "text": "[Tomorrow] 10am(time)",
+        "intent": "enter_data"
+      },
+      {
+        "text": "[Tomorrow] 12am(time)",
+        "intent": "enter_data"
+      },
+      {
+        "text": "[Tomorrow] 2pm(time)",
+        "intent": "enter_data"
+      },
+      {
+        "text": "[Tomorrow] 3pm(time)",
+        "intent": "enter_data"
+      },
+      {
+        "text": "[Tomorrow] 4pm(time)",
+        "intent": "enter_data"
+      },
+      {
+        "text": "Monday",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "Monday",
+            "entity": "time",
+            "end": 6,
+            "start": 0
+          }
+        ]
+      },
+      {
+        "text": "Tuesday",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "Tuesday",
+            "entity": "time",
+            "end": 7,
+            "start": 0
+          }
+        ]
+      },
+      {
+        "text": "Wednesday",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "Wednesday",
+            "entity": "time",
+            "end": 9,
+            "start": 0
+          }
+        ]
+      },
+      {
+        "text": "Thrusday",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "Thrusday",
+            "entity": "time",
+            "end": 8,
+            "start": 0
+          }
+        ]
+      },
+      {
+        "text": "Friday",
+        "intent": "enter_data",
+        "entities": [
+          {
+            "value": "Friday",
+            "entity": "time",
+            "end": 6,
+            "start": 0
+          }
+        ]
+      }
+    ],
+    "entity_synonyms": []
+  }
+}
